@@ -1,2 +1,30 @@
-# Heart_Failure_Atlas
-Scripts from the analysis of the human heart failure atlas
+# Building of the human single-nuclei heart failure atlas
+Heart failure encompasses a diverse group of cardiomyopathies, including myocardial infarction, hypertrophic, dilated, and arrhythmogenic forms, each defined by distinct etiologies. By integrating single-nuclei transcriptomic data from human heart tissue across these conditions, we constructed a unified atlas containing 1.8 million nuclei from 195 individuals.
+The atlas reveals disease-specific cellular clusters, transcriptional changes and altered ligand-receptor interactions. We found cell states specific to the ischemic zone of myocardial infarction, explored the influence of cytokines on fibroblast cell-states, and identified etiological pathways in different cell types. The integration of summary statistics of 52 genome-wide association studies with atlas-wide gene expression highlighted genetically associated pathways involving metabolic dysregulation and ion channel dysfunction.
+Implementation of an AI agent led to the identification of ZLN005, a small molecule that boosts mitochondrial biogenesis via PGC-1α, whose cardioprotective effect we validated experimentally, underscoring the utility of the atlas in early therapeutic target discovery for heart failure.
+
+<center>
+  <img src="https://github.com/hayatlab/multiomics_athero_atlas/blob/main/Cover_Atherosclerosis_Atlas.png" width="900">
+  <figcaption>Figure 1: UMAP of the main cell types from the human atherosclerosis atlas and the main insights from different spatial niches of the human atery.</figcaption>
+</center>
+
+<br>
+<br>
+
+## Workflow of the multi-modal human heart atlas:
+The analysis of the integrated single-cell RNA-seq data and GWAS were performed as described in the following sections: 
+
+-	01 – QC and snRNA-seq data integration
+-	02 – Ischemic cluster
+-	03 – Cell- and patient clustering
+
+-	04 – CCI and bulkRNA-seq analysis
+-	05 – Reactome pathway analysis
+-	06 – GWAS analysis with scPagwas
+- 07 - Setup of the AI agent for drug target discovery
+
+## Data
+Raw data: TBD
+
+## Reference
+The manuscript has been submitted for peer-review
