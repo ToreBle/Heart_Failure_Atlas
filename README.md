@@ -4,8 +4,8 @@ The atlas reveals disease-specific cellular clusters, transcriptional changes an
 Implementation of an AI agent led to the identification of ZLN005, a small molecule that boosts mitochondrial biogenesis via PGC-1α, whose cardioprotective effect we validated experimentally, underscoring the utility of the atlas in early therapeutic target discovery for heart failure.
 
 <center>
-  <img src="https://github.com/hayatlab/multiomics_athero_atlas/blob/main/Cover_Atherosclerosis_Atlas.png" width="900">
-  <figcaption>Figure 1: UMAP of the main cell types from the human atherosclerosis atlas and the main insights from different spatial niches of the human atery.</figcaption>
+  <img src="https://github.com/ToreBle/Heart_Failure_Atlas/blob/main/figure/Overview_Human_Heart_Atlas.png" width="900">
+  <figcaption>Figure 1: Overview of the building of the human heart atlas and subsequent analysis including a UMAP of the main cell types from human heart tissue and an schematic overview of the calcium handling within a cardiomyocyte.</figcaption>
 </center>
 
 <br>
