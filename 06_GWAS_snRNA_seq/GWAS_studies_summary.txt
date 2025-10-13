@@ -1,0 +1,52 @@
+GCST90100575	Carotid intima media thickness	Vasculature
+GCST90104535	Ischemic stroke	Vasculature
+GCST90104538	Large artery stroke	Vasculature
+GCST90132315	Coronary artery disease	Vasculature
+GCST90134614	Abdominal aortic calcification	Vasculature
+GCST90204201	Atrial fibrillation	Cardiomyopoathy
+GCST90239649	HDL cholesterol	Measurements
+GCST90239655	LDL cholesterol	Measurements
+GCST90244710	Left ventrilce mass index	Measurements
+GCST90268120	Right ventricle ejection fraction	Measurements
+GCST90268128	Left ventricle ejection fraction	Measurements
+GCST90278455	Coronary artery calcification	Vasculature
+GCST90281158	Endocarditis	Cardiomyopoathy
+GCST90296098	Pulmonary hypertension	Other
+GCST90310293	Aortic stenosis and aortic valve calcification	Vasculature
+GCST90310294	Systolic blood pressure	Measurements
+GCST90310295	Diastolic blood pressure	Measurements
+GCST90310296	Pulse pressure	Measurements
+GCST90399673	Abdominal aortic aneurysm	Vasculature
+GCST90399695	Chronic obstructive pulmonary disease	Other
+GCST90399721	Idiopathic pulmonary fibrosis	Other
+GCST90018918-Orphanet_797	Sarcoidosis	Cardiomyopoathy
+GCST90043957-MONDO_0021661	Coronary atherosclerosis	Vasculature
+GCST90103632-EFO_0004741	Blood Urea Nitrogen	Measurements
+GCST90103633-EFO_0005208	eGFR (creatinine-based)	Measurements
+GCST011365-EFO_0000612	Myocardial infarction	Cardiomyopoathy
+GCST90018790-EFO_0003884	Acute renal failure	Other
+GCST90018832-EFO_0000401	Diabetic nephropathy	Other
+GCST90018834-EFO_0000407	Dilated Cardiomyopathy 1	Cardiomyopoathy
+GCST90018882-EFO_0009609	Myocarditis	Cardiomyopoathy
+GCST90018896-EFO_0007427	Pericarditis	Cardiomyopoathy
+GCST90018926-EFO_0001360	Type 2 diabetes	Other
+GCST90018890-EFO_0004265	Peripheral artery disease	Vasculature
+GCST90018822-EFO_0003884	Chronic renal failure	Other
+GCST90038611-EFO_0004269	Arrythmia	Cardiomyopoathy
+GCST90018811-EFO_0009551	Cardiac valvular disease	Cardiomyopoathy
+GCST90018908-EFO_0009448	Pulmonary fibrosis	Other
+GCST90018925-EFO_0001359	Type 1 diabetes	Other
+GCST90043949-EFO_0000537	Hypertension	Vasculature
+GCST90091033-EFO_0003095	Nonalcoholic fatty liver disease	Other
+GCST90025974-EFO_0004541	Hemoglobin A1c	Measurements
+GCST90043726-EFO_0008573	Alcohol liver damage	Other
+GCST90018826-EFO_0001422	Cirrhosis	Other
+GCST90093319-EFO_0009184	Heart rate response to excercise	Measurements
+GCST90444487	Metabolic syndrome	Other
+GCST90319320	Hypothyroidism	Other
+GCST90319319	Hyperthyroidism	Other
+GCST90278636	Resting heart rate	Measurements
+GCST90018696-EFO_0003877	Sleep apnea	Other
+GCST90043672-EFO_0001073	Obesity	Other
+GCST90624428	Dilated Cardiomyopathy 2	Cardiomyopoathy
+GCST90435254	Hyperthropic Cardiomyopathy	Cardiomyopoathy

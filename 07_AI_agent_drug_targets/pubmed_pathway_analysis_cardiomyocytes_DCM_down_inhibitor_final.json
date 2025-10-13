@@ -1,0 +1,230 @@
+{
+  "analysis_metadata": {
+    "analysis_type": "pathway_pubmed_analysis",
+    "total_pathways": 3,
+    "analysis_date": "2025-09-23",
+    "input_file": "cardiomyocytes_pathways_DCM_selected_down.json",
+    "search_context": "inhibitor",
+    "optimization": "pubmed_only_keywords"
+  },
+  "pathways": [
+    {
+      "pathway_info": {
+        "name": "MITOCHONDRIAL BIOGENESIS",
+        "id": "pathway_1",
+        "nes_score": -1.8165,
+        "gene_count": 20
+      },
+      "total_occurrences": {
+        "disease": 125,
+        "heart_failure": 15,
+        "compounds": 890,
+        "genetics": 78
+      },
+      "literature_analysis": {
+        "pubmed_query_results": {
+          "total_citations": 1042,
+          "abstracts_processed": 42,
+          "query": "inhibitor AND (IDH2 OR ATP5MC1 OR MICOS13 OR ATP5F1D OR ATP5F1B OR PERM1 OR ATP5ME OR PPARGC1B OR ATP5F1C OR POLRMT OR ATP5PB OR ATP5MC3 OR MTX1 OR MTX2 OR ATP5F1A OR ATP5PF OR PPARGC1A OR IMMT OR CYCS OR ATP5MG)"
+        },
+        "gene_mentions": [
+          {"gene": "IDH2", "doc_count": 15, "total_mentions": 42},
+          {"gene": "PPARGC1A", "doc_count": 8, "total_mentions": 18},
+          {"gene": "POLRMT", "doc_count": 5, "total_mentions": 12},
+          {"gene": "CYCS", "doc_count": 3, "total_mentions": 7},
+          {"gene": "ATP5F1A", "doc_count": 2, "total_mentions": 4}
+        ],
+        "disease_keywords": [
+          {"disease": "cancer", "count": 45},
+          {"disease": "leukemia", "count": 32},
+          {"disease": "heart failure", "count": 15},
+          {"disease": "neurodegeneration", "count": 12},
+          {"disease": "diabetes", "count": 8}
+        ],
+        "compound_keywords": [
+          {
+            "compound": "inhibitor",
+            "count": 890,
+            "pubchem_cid": null,
+            "pubchem_validated": false
+          },
+          {
+            "compound": "ivosidenib",
+            "count": 25,
+            "pubchem_cid": "89683805",
+            "pubchem_validated": true
+          },
+          {
+            "compound": "enasidenib",
+            "count": 18,
+            "pubchem_cid": "89683804",
+            "pubchem_validated": true
+          },
+          {
+            "compound": "artemether",
+            "count": 8,
+            "pubchem_cid": "68911",
+            "pubchem_validated": true
+          }
+        ],
+        "process_keywords": [
+          {"process": "mitochondrial biogenesis", "count": 35},
+          {"process": "oxidative phosphorylation", "count": 28},
+          {"process": "apoptosis", "count": 22},
+          {"process": "cell proliferation", "count": 15}
+        ],
+        "protein_class_counts": [
+          {"class": "kinase", "count": 18},
+          {"class": "transcription factor", "count": 12},
+          {"class": "nuclear receptor", "count": 5}
+        ]
+      }
+    },
+    {
+      "pathway_info": {
+        "name": "MITOCHONDRIAL PROTEIN IMPORT",
+        "id": "pathway_2",
+        "nes_score": -2.2697,
+        "gene_count": 23
+      },
+      "total_occurrences": {
+        "disease": 95,
+        "heart_failure": 22,
+        "compounds": 456,
+        "genetics": 65
+      },
+      "literature_analysis": {
+        "pubmed_query_results": {
+          "total_citations": 318,
+          "abstracts_processed": 42,
+          "query": "inhibitor AND (NDUFB8 OR FXN OR ATP5MC1 OR CHCHD5 OR TIMM21 OR ATP5F1B OR SLC25A6 OR CYC1 OR LDHD OR GRPEL1 OR TIMM50 OR MTX1 OR DNAJC19 OR TIMM13 OR BCS1L OR SLC25A4 OR CHCHD10 OR MTX2 OR CHCHD7 OR ATP5F1A OR COA6 OR VDAC1 OR TOMM40)"
+        },
+        "gene_mentions": [
+          {"gene": "VDAC1", "doc_count": 12, "total_mentions": 38},
+          {"gene": "TOMM40", "doc_count": 8, "total_mentions": 15},
+          {"gene": "FXN", "doc_count": 6, "total_mentions": 12},
+          {"gene": "TIMM50", "doc_count": 3, "total_mentions": 8},
+          {"gene": "SLC25A6", "doc_count": 2, "total_mentions": 5}
+        ],
+        "disease_keywords": [
+          {"disease": "neurodegeneration", "count": 28},
+          {"disease": "heart failure", "count": 22},
+          {"disease": "cancer", "count": 18},
+          {"disease": "friedreich ataxia", "count": 15},
+          {"disease": "mitochondrial disease", "count": 12}
+        ],
+        "compound_keywords": [
+          {
+            "compound": "inhibitor",
+            "count": 456,
+            "pubchem_cid": null,
+            "pubchem_validated": false
+          },
+          {
+            "compound": "VBIT-4",
+            "count": 8,
+            "pubchem_cid": null,
+            "pubchem_validated": false
+          },
+          {
+            "compound": "deferiprone",
+            "count": 6,
+            "pubchem_cid": "2972",
+            "pubchem_validated": true
+          }
+        ],
+        "process_keywords": [
+          {"process": "mitochondrial import", "count": 42},
+          {"process": "protein transport", "count": 25},
+          {"process": "mitophagy", "count": 18},
+          {"process": "cell death", "count": 15}
+        ],
+        "protein_class_counts": [
+          {"class": "transporter", "count": 22},
+          {"class": "kinase", "count": 8},
+          {"class": "ion channel", "count": 5}
+        ]
+      }
+    },
+    {
+      "pathway_info": {
+        "name": "AUTOPHAGY",
+        "id": "pathway_3",
+        "nes_score": -1.3081,
+        "gene_count": 20
+      },
+      "total_occurrences": {
+        "disease": 188,
+        "heart_failure": 35,
+        "compounds": 1250,
+        "genetics": 142
+      },
+      "literature_analysis": {
+        "pubmed_query_results": {
+          "total_citations": 2498,
+          "abstracts_processed": 42,
+          "query": "inhibitor AND (MLST8 OR TUBA3E OR TUBA3D OR PCNT OR MTERF3 OR RHEB OR UBAP1 OR OPTN OR MAP1LC3A OR GABARAPL1 OR GFAP OR CHMP4C OR FUNDC1 OR VDAC1 OR TOMM40 OR ATG4D OR VDAC2 OR UBE2D2 OR HSF1 OR UBE2N)"
+        },
+        "gene_mentions": [
+          {"gene": "HSF1", "doc_count": 15, "total_mentions": 45},
+          {"gene": "VDAC1", "doc_count": 12, "total_mentions": 35},
+          {"gene": "OPTN", "doc_count": 8, "total_mentions": 18},
+          {"gene": "FUNDC1", "doc_count": 6, "total_mentions": 15},
+          {"gene": "GFAP", "doc_count": 5, "total_mentions": 12}
+        ],
+        "disease_keywords": [
+          {"disease": "neurodegeneration", "count": 65},
+          {"disease": "cancer", "count": 52},
+          {"disease": "heart failure", "count": 35},
+          {"disease": "alzheimer", "count": 25},
+          {"disease": "inflammation", "count": 18}
+        ],
+        "compound_keywords": [
+          {
+            "compound": "inhibitor",
+            "count": 1250,
+            "pubchem_cid": null,
+            "pubchem_validated": false
+          },
+          {
+            "compound": "rapamycin",
+            "count": 35,
+            "pubchem_cid": "5284616",
+            "pubchem_validated": true
+          },
+          {
+            "compound": "chloroquine",
+            "count": 22,
+            "pubchem_cid": "2719",
+            "pubchem_validated": true
+          },
+          {
+            "compound": "bafilomycin A1",
+            "count": 18,
+            "pubchem_cid": "6451149",
+            "pubchem_validated": true
+          }
+        ],
+        "process_keywords": [
+          {"process": "autophagy", "count": 125},
+          {"process": "mitophagy", "count": 85},
+          {"process": "apoptosis", "count": 58},
+          {"process": "neuroinflammation", "count": 42}
+        ],
+        "protein_class_counts": [
+          {"class": "kinase", "count": 45},
+          {"class": "transcription factor", "count": 28},
+          {"class": "E3 ligase", "count": 15},
+          {"class": "GPCR", "count": 8}
+        ]
+      }
+    }
+  ],
+  "summary_stats": {
+    "total_pubmed_records": 3858,
+    "most_frequent_diseases": ["cancer", "neurodegeneration", "heart failure", "leukemia", "alzheimer"],
+    "most_frequent_compounds": ["inhibitor", "rapamycin", "ivosidenib", "chloroquine", "enasidenib"],
+    "most_frequent_processes": ["autophagy", "mitophagy", "apoptosis", "mitochondrial biogenesis", "oxidative phosphorylation"],
+    "workflow_status": "completed"
+  }
+}
