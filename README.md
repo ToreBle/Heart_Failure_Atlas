@@ -27,4 +27,4 @@ The analysis of the integrated single-cell RNA-seq data and GWAS were performed 
 Raw data: TBD
 
 ## Reference
-The manuscript has been submitted for peer-review. A preprint is available on medRxiv.
+The manuscript has been submitted for peer-review. A preprint is available on [medRxiv] (https://www.medrxiv.org/content/10.1101/2025.10.09.25337646v1).
