@@ -24,7 +24,7 @@ The analysis of the integrated single-cell RNA-seq data and GWAS were performed 
 - 07 - Setup of the LLM workflow for drug target discovery
 
 ## Data
-- Raw sequencing data: [GSE350002] (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350002)
+- Raw sequencing data: [GSE350002](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350002)
 - Human heart failure atlas: [h5ad](https://doi.org/10.5281/zenodo.23216491)
 
 ## Reference
