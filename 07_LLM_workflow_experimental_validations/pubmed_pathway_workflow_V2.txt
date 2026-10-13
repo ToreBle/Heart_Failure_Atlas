@@ -1,0 +1,146 @@
+# Pathway Analysis Workflow
+
+## Instructions
+MANDATORY: Define a SEARCH_CONTEXT before executing the analysis.
+The SEARCH_CONTEXT must be specified and cannot be empty.
+Replace [INPUT_FILE] with your actual filename, then execute this workflow.
+
+## 0) Tooling (MCP Servers)
+- **PubMed MCP Server**: `pubmed.*` tools for search and entity extraction
+- **PubChem MCP Server**: Validate compound existence
+- Use native entity extractors when available; fallback to exact-phrase counting with word boundaries
+
+## 1) Data Loading
+Read pathway data from `[INPUT_FILE]`
+Input format: JSON array of pathways with gene lists
+
+2) Optimized Per-Pathway Analysis
+2a) Gene Extraction & PubMed Search
+
+Extract gene symbols for pathway
+Combined Query: "[SEARCH_CONTEXT] AND (GENE1 OR GENE2 OR GENE3)"
+
+Parameters:
+
+maxResults: 882
+fetchBriefSummaries: 42
+dateRange: 2015-2025
+sortBy: "pub_date"
+filterByPublicationTypes: ["Review","Journal Article"]
+detailLevel: "full_xml"
+
+Store: PMIDs, citation count, and summary count (not full abstracts)
+
+2b) Streamlined Entity Extraction
+Process abstracts immediately without storing full text:
+Gene Mentions: Count per gene using word boundaries
+
+abstract_mention_total_occurrences: total mentions across abstracts
+
+Disease Keywords: Extract top diseases only
+
+Use PubMed entity extraction or MeSH terms
+Store: {disease_name, mention_count}
+total_occurrences_disease: total mentions of any disease across abstracts
+total_occurrences_heart_failure: total mentions of heart failure related diseases across abstracts
+
+
+Compound Keywords: Extract and validate chemical compounds
+
+1. Parse <KeywordList> for "PubChem CID: [number]" (highest accuracy)
+2. Extract <Chemical><NameOfSubstance> from XML 
+3. Validate non-CID compounds via PubChem MCP: search_compounds(query=name)
+4. Set false if PubChem returns no results
+
+Store: {compound_name, mention_count, pubchem_cid, pubchem_validated: true/false}
+total_occurrences_compounds: total mentions of search context term across abstracts
+total_occurrences_genetics: total mentions of any genetical aspects across abstracts
+
+
+Biological Processes: Extract process terms
+
+GO Biological Process or MeSH process terms
+Store only: {process_name, mention_count}
+
+Protein Classes: Count specific keywords
+
+Target keywords: GPCR, ion channel, kinase, phosphatase, transporter, nuclear receptor, E3 ligase, transcription factor
+Store only: {protein_class, mention_count}
+
+## 3) Minimal JSON Output Structure
+{
+  "analysis_metadata": {
+    "analysis_type": "pathway_pubmed_analysis",
+    "total_pathways": X,
+    "analysis_date": "YYYY-MM-DD",
+    "input_file": "[INPUT_FILE]",
+    "optimization": "pubmed_only_keywords"
+  },
+  "pathways": [
+    {
+      "pathway_info": {
+        "name": "...",
+        "id": "...",
+        "nes_score": X.XX,
+        "gene_count": X
+      },
+      "total_occurrences": {
+        "disease": X,
+        "heart_failure": Y,
+        "compounds": Z,
+        "genetics": W
+      },
+      "literature_analysis": {
+        "pubmed_query_results": {
+          "total_citations": X,
+          "abstracts_processed": Y,
+          "query": "GENE1 OR GENE2 OR ...",
+          "pmids": ["12345678", "23456789", "..."]
+        },
+        "gene_mentions": [
+          {"gene": "GENE1", "doc_count": X, "total_mentions": Y, "pmids": ["12345678", "..."]}
+        ],
+        "disease_keywords": [
+          {"disease": "heart failure", "count": X},
+          {"disease": "diabetes", "count": Y}
+        ],
+        "compound_keywords": [
+          {
+            "compound": "metformin", 
+            "count": X, 
+            "pubchem_cid": "4091",
+            "pubchem_validated": true
+          },
+          {
+            "compound": "agonist", 
+            "count": Y, 
+            "pubchem_cid": null,
+            "pubchem_validated": false
+          }
+        ],
+        "process_keywords": [
+          {"process": "cell proliferation", "count": X}
+        ],
+        "protein_class_counts": [
+          {"class": "GPCR", "count": X},
+          {"class": "kinase", "count": Y}
+        ]
+      }
+    }
+  ],
+  "summary_stats": {
+    "total_pubmed_records": X,
+    "most_frequent_diseases": [...],
+    "most_frequent_compounds": [...],
+    "most_frequent_processes": [...],
+    "workflow_status": "completed"
+  }
+}
+
+## 4) File Output
+Save to: `pubmed_pathway_analysis_[DATE].json`
+
+## Execution Notes
+- Process pathways sequentially
+- Log any fallbacks from entity extraction to manual counting
+- Maintain accuracy while minimizing token usage

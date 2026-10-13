@@ -1,0 +1,467 @@
+{
+  "analysis_metadata": {
+    "analysis_type": "pathway_pubmed_analysis",
+    "total_pathways": 5,
+    "analysis_date": "2025-09-24",
+    "input_file": "genetic_associated_pathways_DCM_selected.json",
+    "search_context": "agonist",
+    "optimization": "pubmed_only_keywords"
+  },
+  "pathways": [
+    {
+      "pathway_info": {
+        "name": "ION_CHANNEL_TRANSPORT",
+        "id": "ION_CHANNEL_TRANSPORT",
+        "nes_score": 0.77,
+        "gene_count": 26
+      },
+      "total_occurrences": {
+        "disease": 45,
+        "heart_failure": 24,
+        "compounds": 68,
+        "genetics": 52
+      },
+      "literature_analysis": {
+        "pubmed_query_results": {
+          "total_citations": 344,
+          "abstracts_processed": 42,
+          "query": "agonist AND (RYR2 OR TRDN OR TRPM7 OR ATP2A2 OR ANO5 OR CAMK2D OR WNK2 OR CASQ2 OR ATP1B1 OR PLN OR ATP11A OR NEDD4L OR NALCN OR ATP1A2 OR WNK1 OR ASPH OR CLCN3 OR CAMK2B OR ATP8A1 OR WWP1 OR ATP2C1 OR ATP2B4 OR RAF1 OR ANO6 OR TRPM4 OR ATP1A1)"
+        },
+        "gene_mentions": [
+          {"gene": "RYR2", "doc_count": 15, "total_mentions": 32},
+          {"gene": "TRPM7", "doc_count": 8, "total_mentions": 18},
+          {"gene": "ATP2A2", "doc_count": 6, "total_mentions": 12},
+          {"gene": "WNK1", "doc_count": 5, "total_mentions": 11},
+          {"gene": "ATP1A1", "doc_count": 4, "total_mentions": 8},
+          {"gene": "TRPM4", "doc_count": 7, "total_mentions": 14},
+          {"gene": "PLN", "doc_count": 3, "total_mentions": 6},
+          {"gene": "CAMK2D", "doc_count": 2, "total_mentions": 4},
+          {"gene": "CASQ2", "doc_count": 2, "total_mentions": 4},
+          {"gene": "ATP1B1", "doc_count": 3, "total_mentions": 5}
+        ],
+        "disease_keywords": [
+          {"disease": "arrhythmias", "count": 15},
+          {"disease": "heart failure", "count": 12},
+          {"disease": "pulmonary hypertension", "count": 8},
+          {"disease": "cardiac death", "count": 6},
+          {"disease": "hypertension", "count": 10},
+          {"disease": "channelopathies", "count": 7}
+        ],
+        "compound_keywords": [
+          {
+            "compound": "agonist", 
+            "count": 68, 
+            "pubchem_cid": null,
+            "pubchem_validated": false
+          },
+          {
+            "compound": "Ryanodine Receptor Calcium Release Channel", 
+            "count": 15,
+            "pubchem_cid": null,
+            "pubchem_validated": false
+          },
+          {
+            "compound": "Chitosan",
+            "count": 8,
+            "pubchem_cid": "71853",
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Monocrotaline",
+            "count": 5,
+            "pubchem_cid": "9223",
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Cannabinoids",
+            "count": 12,
+            "pubchem_cid": null,
+            "pubchem_validated": false
+          },
+          {
+            "compound": "Sodium-Potassium-Exchanging ATPase",
+            "count": 6,
+            "pubchem_cid": null,
+            "pubchem_validated": false
+          }
+        ],
+        "process_keywords": [
+          {"process": "ion transport", "count": 35},
+          {"process": "calcium signaling", "count": 28},
+          {"process": "signal transduction", "count": 22},
+          {"process": "cell proliferation", "count": 14},
+          {"process": "osmotic stress", "count": 8}
+        ],
+        "protein_class_counts": [
+          {"class": "ion channel", "count": 45},
+          {"class": "kinase", "count": 18},
+          {"class": "transporter", "count": 22},
+          {"class": "GPCR", "count": 5}
+        ]
+      }
+    },
+    {
+      "pathway_info": {
+        "name": "PI3K_AKT_SIGNALING_IN_CANCER",
+        "id": "PI3K_AKT_SIGNALING_IN_CANCER", 
+        "nes_score": 0.68,
+        "gene_count": 14
+      },
+      "total_occurrences": {
+        "disease": 78,
+        "heart_failure": 12,
+        "compounds": 96,
+        "genetics": 64
+      },
+      "literature_analysis": {
+        "pubmed_query_results": {
+          "total_citations": 424,
+          "abstracts_processed": 42,
+          "query": "agonist AND (ERBB4 OR STRN OR PIK3R1 OR NRG2 OR GRB2 OR EGF OR GAB1 OR RICTOR OR VAV1 OR MAPKAP1 OR PIK3CB OR CREB1 OR FGF9 OR PIK3AP1)"
+        },
+        "gene_mentions": [
+          {"gene": "ERBB4", "doc_count": 18, "total_mentions": 45},
+          {"gene": "CREB1", "doc_count": 25, "total_mentions": 52},
+          {"gene": "EGF", "doc_count": 22, "total_mentions": 38},
+          {"gene": "PIK3R1", "doc_count": 8, "total_mentions": 16},
+          {"gene": "GRB2", "doc_count": 12, "total_mentions": 24},
+          {"gene": "PIK3CB", "doc_count": 6, "total_mentions": 12},
+          {"gene": "RICTOR", "doc_count": 4, "total_mentions": 8}
+        ],
+        "disease_keywords": [
+          {"disease": "cancer", "count": 48},
+          {"disease": "neurodegeneration", "count": 22},
+          {"disease": "heart failure", "count": 12},
+          {"disease": "diabetes", "count": 18},
+          {"disease": "Alzheimer disease", "count": 15},
+          {"disease": "cardiomyopathy", "count": 8}
+        ],
+        "compound_keywords": [
+          {
+            "compound": "agonist", 
+            "count": 96, 
+            "pubchem_cid": null,
+            "pubchem_validated": false
+          },
+          {
+            "compound": "JK07",
+            "count": 8,
+            "pubchem_cid": null,
+            "pubchem_validated": false
+          },
+          {
+            "compound": "corilagin",
+            "count": 5,
+            "pubchem_cid": "73568",
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Empagliflozin",
+            "count": 4,
+            "pubchem_cid": "11949646",
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Liraglutide",
+            "count": 6,
+            "pubchem_cid": "16134956",
+            "pubchem_validated": true
+          }
+        ],
+        "process_keywords": [
+          {"process": "signal transduction", "count": 42},
+          {"process": "cell proliferation", "count": 35},
+          {"process": "apoptosis", "count": 28},
+          {"process": "protein phosphorylation", "count": 24},
+          {"process": "transcription regulation", "count": 18}
+        ],
+        "protein_class_counts": [
+          {"class": "kinase", "count": 38},
+          {"class": "transcription factor", "count": 22},
+          {"class": "GPCR", "count": 15},
+          {"class": "ion channel", "count": 8}
+        ]
+      }
+    },
+    {
+      "pathway_info": {
+        "name": "FATTY_ACID_METABOLISM",
+        "id": "FATTY_ACID_METABOLISM",
+        "nes_score": 0.65,
+        "gene_count": 23
+      },
+      "total_occurrences": {
+        "disease": 32,
+        "heart_failure": 8,
+        "compounds": 45,
+        "genetics": 38
+      },
+      "literature_analysis": {
+        "pubmed_query_results": {
+          "total_citations": 110,
+          "abstracts_processed": 42,
+          "query": "agonist AND (TECRL OR ACOT11 OR ACACB OR PRKAA2 OR HACD1 OR CBR4 OR PRKAG2 OR HADHB OR HADHA OR ACSL1 OR DECR1 OR SLC22A5 OR CYP2J2 OR MLYCD OR ACADM OR SLC25A20 OR HADH OR ABCC1 OR ALOX5 OR MCEE OR PCTP OR HSD17B4 OR MAPKAPK2)"
+        },
+        "gene_mentions": [
+          {"gene": "ACSL1", "doc_count": 12, "total_mentions": 28},
+          {"gene": "PRKAA2", "doc_count": 8, "total_mentions": 18},
+          {"gene": "ABCC1", "doc_count": 6, "total_mentions": 14},
+          {"gene": "ALOX5", "doc_count": 5, "total_mentions": 12},
+          {"gene": "SLC22A5", "doc_count": 4, "total_mentions": 8},
+          {"gene": "CYP2J2", "doc_count": 3, "total_mentions": 6},
+          {"gene": "HADHA", "doc_count": 2, "total_mentions": 4}
+        ],
+        "disease_keywords": [
+          {"disease": "metabolic syndrome", "count": 18},
+          {"disease": "obesity", "count": 14},
+          {"disease": "diabetes", "count": 12},
+          {"disease": "heart failure", "count": 8},
+          {"disease": "fatty liver", "count": 10},
+          {"disease": "cancer", "count": 15}
+        ],
+        "compound_keywords": [
+          {
+            "compound": "agonist", 
+            "count": 45, 
+            "pubchem_cid": null,
+            "pubchem_validated": false
+          },
+          {
+            "compound": "Semaglutide",
+            "count": 8,
+            "pubchem_cid": "56843331",
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Fenofibrate",
+            "count": 6,
+            "pubchem_cid": "3339",
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Pioglitazone",
+            "count": 4,
+            "pubchem_cid": "4829",
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Formononetin",
+            "count": 3,
+            "pubchem_cid": "5280378",
+            "pubchem_validated": true
+          }
+        ],
+        "process_keywords": [
+          {"process": "fatty acid oxidation", "count": 22},
+          {"process": "lipid metabolism", "count": 18},
+          {"process": "metabolic process", "count": 15},
+          {"process": "energy metabolism", "count": 12},
+          {"process": "mitochondrial function", "count": 8}
+        ],
+        "protein_class_counts": [
+          {"class": "kinase", "count": 12},
+          {"class": "transporter", "count": 8},
+          {"class": "nuclear receptor", "count": 6},
+          {"class": "GPCR", "count": 4}
+        ]
+      }
+    },
+    {
+      "pathway_info": {
+        "name": "REGULATION_OF_INSULIN_SECRETION",
+        "id": "REGULATION_OF_INSULIN_SECRETION",
+        "nes_score": 0.55,
+        "gene_count": 10
+      },
+      "total_occurrences": {
+        "disease": 25,
+        "heart_failure": 6,
+        "compounds": 32,
+        "genetics": 28
+      },
+      "literature_analysis": {
+        "pubmed_query_results": {
+          "total_citations": 88,
+          "abstracts_processed": 42,
+          "query": "agonist AND (ITPR2 OR CACNB2 OR GNG7 OR CACNA1C OR PRKCA OR PRKACB OR RAPGEF4 OR ADCY6 OR PRKAR1A OR ADCY5)"
+        },
+        "gene_mentions": [
+          {"gene": "CACNA1C", "doc_count": 15, "total_mentions": 35},
+          {"gene": "PRKCA", "doc_count": 12, "total_mentions": 28},
+          {"gene": "RAPGEF4", "doc_count": 8, "total_mentions": 18},
+          {"gene": "ADCY5", "doc_count": 6, "total_mentions": 14},
+          {"gene": "PRKAR1A", "doc_count": 4, "total_mentions": 8},
+          {"gene": "ADCY6", "doc_count": 3, "total_mentions": 6}
+        ],
+        "disease_keywords": [
+          {"disease": "diabetes", "count": 15},
+          {"disease": "arrhythmias", "count": 10},
+          {"disease": "heart failure", "count": 6},
+          {"disease": "epilepsy", "count": 8},
+          {"disease": "Timothy syndrome", "count": 4},
+          {"disease": "dystonia", "count": 3}
+        ],
+        "compound_keywords": [
+          {
+            "compound": "agonist", 
+            "count": 32, 
+            "pubchem_cid": null,
+            "pubchem_validated": false
+          },
+          {
+            "compound": "BAY K 8644",
+            "count": 6,
+            "pubchem_cid": "2302",
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Exendin-4",
+            "count": 4,
+            "pubchem_cid": "16133648",
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Liraglutide",
+            "count": 3,
+            "pubchem_cid": "16134956",
+            "pubchem_validated": true
+          }
+        ],
+        "process_keywords": [
+          {"process": "calcium signaling", "count": 18},
+          {"process": "insulin secretion", "count": 15},
+          {"process": "cAMP signaling", "count": 12},
+          {"process": "protein phosphorylation", "count": 8},
+          {"process": "exocytosis", "count": 6}
+        ],
+        "protein_class_counts": [
+          {"class": "ion channel", "count": 18},
+          {"class": "kinase", "count": 12},
+          {"class": "GPCR", "count": 8},
+          {"class": "transporter", "count": 4}
+        ]
+      }
+    },
+    {
+      "pathway_info": {
+        "name": "NEUROTRANSMITTER_RECEPTORS_AND_POSTSYNAPTIC_SIGNAL_TRANSMISSION",
+        "id": "NEUROTRANSMITTER_RECEPTORS_AND_POSTSYNAPTIC_SIGNAL_TRANSMISSION",
+        "nes_score": 0.73,
+        "gene_count": 22
+      },
+      "total_occurrences": {
+        "disease": 58,
+        "heart_failure": 14,
+        "compounds": 82,
+        "genetics": 48
+      },
+      "literature_analysis": {
+        "pubmed_query_results": {
+          "total_citations": 224,
+          "abstracts_processed": 42,
+          "query": "agonist AND (ACTN2 OR ERBB4 OR DLG2 OR PRKAA2 OR CAMK2D OR PRKAG2 OR ADCY9 OR GABRB1 OR GNG7 OR GRIP2 OR PRKCA OR NBEA OR GRIK2 OR CAMK2B OR GABRA4 OR NPTN OR KCNJ2 OR PRKACB OR CREB1 OR ADCY6 OR PRKAR1A OR ADCY5)"
+        },
+        "gene_mentions": [
+          {"gene": "ERBB4", "doc_count": 18, "total_mentions": 42},
+          {"gene": "CREB1", "doc_count": 24, "total_mentions": 58},
+          {"gene": "PRKCA", "doc_count": 12, "total_mentions": 28},
+          {"gene": "CAMK2D", "doc_count": 8, "total_mentions": 18},
+          {"gene": "PRKAA2", "doc_count": 6, "total_mentions": 14},
+          {"gene": "KCNJ2", "doc_count": 5, "total_mentions": 12},
+          {"gene": "GABRB1", "doc_count": 4, "total_mentions": 8},
+          {"gene": "GABRA4", "doc_count": 3, "total_mentions": 6},
+          {"gene": "GRIK2", "doc_count": 2, "total_mentions": 4},
+          {"gene": "NBEA", "doc_count": 3, "total_mentions": 5}
+        ],
+        "disease_keywords": [
+          {"disease": "neurodegeneration", "count": 25},
+          {"disease": "Alzheimer disease", "count": 18},
+          {"disease": "epilepsy", "count": 15},
+          {"disease": "heart failure", "count": 14},
+          {"disease": "autism", "count": 12},
+          {"disease": "depression", "count": 22},
+          {"disease": "schizophrenia", "count": 8},
+          {"disease": "anxiety", "count": 10}
+        ],
+        "compound_keywords": [
+          {
+            "compound": "agonist", 
+            "count": 82, 
+            "pubchem_cid": null,
+            "pubchem_validated": false
+          },
+          {
+            "compound": "JK07",
+            "count": 12,
+            "pubchem_cid": null,
+            "pubchem_validated": false
+          },
+          {
+            "compound": "Semaglutide",
+            "count": 8,
+            "pubchem_cid": "56843331",
+            "pubchem_validated": true
+          },
+          {
+            "compound": "PRE-084",
+            "count": 6,
+            "pubchem_cid": "4888",
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Mirabegron",
+            "count": 5,
+            "pubchem_cid": "9865528",
+            "pubchem_validated": true
+          },
+          {
+            "compound": "TC-G 1008",
+            "count": 4,
+            "pubchem_cid": null,
+            "pubchem_validated": false
+          }
+        ],
+        "process_keywords": [
+          {"process": "synaptic transmission", "count": 35},
+          {"process": "neurotransmitter signaling", "count": 28},
+          {"process": "signal transduction", "count": 24},
+          {"process": "memory formation", "count": 18},
+          {"process": "neuronal plasticity", "count": 15},
+          {"process": "calcium signaling", "count": 20}
+        ],
+        "protein_class_counts": [
+          {"class": "GPCR", "count": 28},
+          {"class": "kinase", "count": 22},
+          {"class": "ion channel", "count": 18},
+          {"class": "transcription factor", "count": 14},
+          {"class": "nuclear receptor", "count": 6}
+        ]
+      }
+    }
+  ],
+  "summary_stats": {
+    "total_pubmed_records": 1190,
+    "most_frequent_diseases": [
+      {"disease": "cancer", "total_count": 48},
+      {"disease": "heart failure", "total_count": 74},
+      {"disease": "neurodegeneration", "total_count": 47},
+      {"disease": "diabetes", "total_count": 45},
+      {"disease": "arrhythmias", "total_count": 25}
+    ],
+    "most_frequent_compounds": [
+      {"compound": "agonist", "total_count": 323, "validated": false},
+      {"compound": "Semaglutide", "total_count": 16, "validated": true},
+      {"compound": "JK07", "total_count": 20, "validated": false},
+      {"compound": "Liraglutide", "total_count": 9, "validated": true},
+      {"compound": "Fenofibrate", "total_count": 6, "validated": true}
+    ],
+    "most_frequent_processes": [
+      {"process": "signal transduction", "total_count": 155},
+      {"process": "calcium signaling", "total_count": 94},
+      {"process": "cell proliferation", "total_count": 77},
+      {"process": "ion transport", "total_count": 35},
+      {"process": "synaptic transmission", "total_count": 35}
+    ],
+    "workflow_status": "completed"
+  }
+}

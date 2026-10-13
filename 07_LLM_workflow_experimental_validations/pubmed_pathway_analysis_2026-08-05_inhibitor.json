@@ -1,0 +1,2388 @@
+{
+  "analysis_metadata": {
+    "analysis_type": "pathway_pubmed_analysis",
+    "total_pathways": 3,
+    "analysis_date": "2026-08-05",
+    "input_file": "cardiomyocytes_pathways_DCM_selected_down.json",
+    "search_context": "inhibitor",
+    "optimization": "pubmed_only_keywords"
+  },
+  "pathways": [
+    {
+      "pathway_info": {
+        "name": "MITOCHONDRIAL BIOGENESIS",
+        "id": "MITOCHONDRIAL BIOGENESIS",
+        "nes_score": -1.8165,
+        "gene_count": 20
+      },
+      "total_occurrences": {
+        "disease": 64,
+        "heart_failure": 0,
+        "compounds": 125,
+        "genetics": 105
+      },
+      "literature_analysis": {
+        "pubmed_query_results": {
+          "total_citations": 200,
+          "abstracts_processed": 80,
+          "query": "inhibitor AND (IDH2 OR ATP5MC1 OR MICOS13 OR ATP5F1D OR ATP5F1B OR PERM1 OR ATP5ME OR PPARGC1B OR ATP5F1C OR POLRMT OR ATP5PB OR ATP5MC3 OR MTX1 OR MTX2 OR ATP5F1A OR ATP5PF OR PPARGC1A OR IMMT OR CYCS OR ATP5MG)",
+          "pmids": [
+            "40985203",
+            "42095034",
+            "41195510",
+            "41576755",
+            "41344517",
+            "41173113",
+            "40783381",
+            "41478007",
+            "41574313",
+            "41536779",
+            "41412440",
+            "41394091",
+            "41348235",
+            "41348033",
+            "41348013",
+            "41225024",
+            "41175888",
+            "41026608",
+            "40514518",
+            "41299743",
+            "41296099",
+            "41172919",
+            "41066183",
+            "41269393",
+            "41346587",
+            "41334440",
+            "41217528",
+            "41278291",
+            "40633334",
+            "41135413",
+            "41075807",
+            "41016638",
+            "40991983",
+            "40769005",
+            "41226437",
+            "40706667",
+            "41058465",
+            "41113673",
+            "40778417",
+            "40493345",
+            "40274961",
+            "40257493",
+            "40160153",
+            "38805142",
+            "40965018",
+            "41030943",
+            "40919259",
+            "41507754",
+            "40944348",
+            "40848224",
+            "40788065",
+            "40650712",
+            "40576133",
+            "40545636",
+            "40368220",
+            "40320116",
+            "40886189",
+            "40499470",
+            "40513054",
+            "40818987",
+            "40728385",
+            "40760286",
+            "40874697",
+            "40618584",
+            "40543453",
+            "40345568",
+            "40280312",
+            "40532802",
+            "40747314",
+            "40198939",
+            "40643669",
+            "40629097",
+            "40409258",
+            "40630561",
+            "40595858",
+            "40494193",
+            "40479721",
+            "40424199",
+            "40371884",
+            "40349789",
+            "40316697",
+            "40250033",
+            "40049543",
+            "40642087",
+            "40371535",
+            "40565373",
+            "40688985",
+            "40216180",
+            "40516517",
+            "40575785",
+            "40511589",
+            "39878121",
+            "39688655",
+            "38485864",
+            "40366239",
+            "40404885",
+            "40208691",
+            "40444052",
+            "39584448",
+            "40413625",
+            "40058648",
+            "40010492",
+            "39955197",
+            "40362857",
+            "40416001",
+            "40294295",
+            "39727294",
+            "39667405",
+            "39314068",
+            "39221837",
+            "38702028",
+            "40227641",
+            "40144774",
+            "40097915",
+            "39880183",
+            "40104804",
+            "40055825",
+            "40117529",
+            "39582141",
+            "39560957",
+            "40075667",
+            "39894417",
+            "40004127",
+            "39917990",
+            "39899075",
+            "39681411",
+            "39667633",
+            "39631469",
+            "39427090",
+            "39710159",
+            "39341266",
+            "39810231",
+            "41668456",
+            "40268458",
+            "39700761",
+            "39546097",
+            "39432026",
+            "39406307",
+            "39366644",
+            "39326497",
+            "39171695",
+            "39066911",
+            "39867257",
+            "39732711",
+            "39730484",
+            "39586772",
+            "39522687",
+            "39644009",
+            "39648664",
+            "39520951",
+            "39325807",
+            "39197819",
+            "38194959",
+            "39664198",
+            "39684318",
+            "39596482",
+            "39556135",
+            "39514580",
+            "39525050",
+            "39552019",
+            "39526588",
+            "39474840",
+            "39276914",
+            "39265716",
+            "39097182",
+            "39375303",
+            "39373252",
+            "39346744",
+            "39128194",
+            "39115831",
+            "39085680",
+            "39072736",
+            "39067538",
+            "39059737",
+            "38955919",
+            "39408804",
+            "39409901",
+            "39300079",
+            "38991123",
+            "38981225",
+            "38943974",
+            "39227564",
+            "39087139",
+            "39033796",
+            "39016070",
+            "38874588",
+            "37559488",
+            "39160568",
+            "39049433",
+            "39201245",
+            "39085357",
+            "38901196",
+            "38871090",
+            "38805913",
+            "38751104",
+            "38563070",
+            "39145075",
+            "39123404",
+            "39082363",
+            "39063158"
+          ]
+        },
+        "gene_mentions": [
+          {
+            "gene": "IDH2",
+            "doc_count": 33,
+            "total_mentions": 79,
+            "pmids": [
+              "42095034",
+              "41195510",
+              "41576755",
+              "41574313",
+              "41536779",
+              "41394091",
+              "41348013",
+              "41225024",
+              "41175888",
+              "41026608",
+              "41299743",
+              "41346587",
+              "41334440",
+              "41278291",
+              "40633334",
+              "41075807",
+              "40991983",
+              "40769005",
+              "41226437",
+              "41113673",
+              "40316697",
+              "40650712",
+              "40545636",
+              "40513054",
+              "40818987",
+              "40198939",
+              "40643669",
+              "40629097",
+              "40409258",
+              "40630561",
+              "40494193",
+              "40424199",
+              "40444052"
+            ]
+          },
+          {
+            "gene": "ATP5F1D",
+            "doc_count": 1,
+            "total_mentions": 1,
+            "pmids": [
+              "40543453"
+            ]
+          },
+          {
+            "gene": "POLRMT",
+            "doc_count": 4,
+            "total_mentions": 29,
+            "pmids": [
+              "41478007",
+              "41135413",
+              "40706667",
+              "40728385"
+            ]
+          },
+          {
+            "gene": "ATP5F1A",
+            "doc_count": 1,
+            "total_mentions": 1,
+            "pmids": [
+              "39878121"
+            ]
+          },
+          {
+            "gene": "PPARGC1A",
+            "doc_count": 4,
+            "total_mentions": 5,
+            "pmids": [
+              "41217528",
+              "40788065",
+              "40371884",
+              "39878121"
+            ]
+          },
+          {
+            "gene": "CYCS",
+            "doc_count": 2,
+            "total_mentions": 2,
+            "pmids": [
+              "41173113",
+              "41058465"
+            ]
+          },
+          {
+            "gene": "ATP5MC1",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "MICOS13",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "ATP5F1B",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "PERM1",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "ATP5ME",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "PPARGC1B",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "ATP5F1C",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "ATP5PB",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "ATP5MC3",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "MTX1",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "MTX2",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "ATP5PF",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "IMMT",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "ATP5MG",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          }
+        ],
+        "disease_keywords": [
+          {
+            "disease": "Leukemia, Myeloid, Acute",
+            "count": 13
+          },
+          {
+            "disease": "Glioma",
+            "count": 4
+          },
+          {
+            "disease": "Brain Neoplasms",
+            "count": 4
+          },
+          {
+            "disease": "Diabetes Mellitus, Experimental",
+            "count": 3
+          },
+          {
+            "disease": "Muscular Atrophy",
+            "count": 2
+          },
+          {
+            "disease": "Carcinoma, Hepatocellular",
+            "count": 2
+          },
+          {
+            "disease": "Liver Neoplasms",
+            "count": 2
+          },
+          {
+            "disease": "Myelodysplastic Syndromes",
+            "count": 2
+          },
+          {
+            "disease": "Neoplasms",
+            "count": 2
+          },
+          {
+            "disease": "Diabetic Retinopathy",
+            "count": 2
+          },
+          {
+            "disease": "Lung Neoplasms",
+            "count": 2
+          },
+          {
+            "disease": "Colorectal Neoplasms",
+            "count": 2
+          },
+          {
+            "disease": "Parkinson Disease",
+            "count": 2
+          },
+          {
+            "disease": "Acute Kidney Injury",
+            "count": 2
+          },
+          {
+            "disease": "Diabetic Cardiomyopathies",
+            "count": 1
+          }
+        ],
+        "compound_keywords": [
+          {
+            "compound": "Enasidenib",
+            "count": 24,
+            "pubchem_cid": 89683805,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Vorasidenib",
+            "count": 24,
+            "pubchem_cid": 117817422,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Venetoclax",
+            "count": 15,
+            "pubchem_cid": 49846579,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Celastrol",
+            "count": 13,
+            "pubchem_cid": 122724,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Artemether",
+            "count": 13,
+            "pubchem_cid": 68911,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Asiatic acid",
+            "count": 10,
+            "pubchem_cid": 119034,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Dexamethasone",
+            "count": 8,
+            "pubchem_cid": 5743,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Lenvatinib",
+            "count": 8,
+            "pubchem_cid": 9823820,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "EX-527",
+            "count": 8,
+            "pubchem_cid": 5113032,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Dapolsertib",
+            "count": 7,
+            "pubchem_cid": 76286825,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "LY3410738",
+            "count": 7,
+            "pubchem_cid": 135125140,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "PSCP",
+            "count": 6,
+            "pubchem_cid": 104885,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Trastuzumab",
+            "count": 5,
+            "pubchem_cid": null,
+            "pubchem_validated": false
+          },
+          {
+            "compound": "Ivosidenib",
+            "count": 5,
+            "pubchem_cid": 71657455,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Imatinib",
+            "count": 4,
+            "pubchem_cid": 5291,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Resveratrol",
+            "count": 3,
+            "pubchem_cid": 445154,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Azacitidine",
+            "count": 3,
+            "pubchem_cid": 9444,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Curcumin",
+            "count": 2,
+            "pubchem_cid": 969516,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Butylphthalide (L-3n-butylphthalide)",
+            "count": 2,
+            "pubchem_cid": 61361,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Ascorbyl palmitate",
+            "count": 2,
+            "pubchem_cid": 54680660,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Doxorubicin",
+            "count": 2,
+            "pubchem_cid": 31703,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Alpha-asarone",
+            "count": 1,
+            "pubchem_cid": 636822,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Olutasidenib",
+            "count": 1,
+            "pubchem_cid": 118955396,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Acetaminophen",
+            "count": 1,
+            "pubchem_cid": 1983,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Lenalidomide",
+            "count": 1,
+            "pubchem_cid": 216326,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Decitabine",
+            "count": 1,
+            "pubchem_cid": 451668,
+            "pubchem_validated": true
+          }
+        ],
+        "process_keywords": [
+          {
+            "process": "Signal Transduction",
+            "count": 29
+          },
+          {
+            "process": "Oxidative Stress",
+            "count": 10
+          },
+          {
+            "process": "Apoptosis",
+            "count": 10
+          },
+          {
+            "process": "Gene Expression Regulation, Neoplastic",
+            "count": 6
+          },
+          {
+            "process": "DNA Methylation",
+            "count": 5
+          },
+          {
+            "process": "Cell Proliferation",
+            "count": 5
+          },
+          {
+            "process": "Organelle Biogenesis",
+            "count": 5
+          },
+          {
+            "process": "Drug Resistance, Neoplasm",
+            "count": 4
+          },
+          {
+            "process": "Epigenesis, Genetic",
+            "count": 3
+          },
+          {
+            "process": "Homeostasis",
+            "count": 3
+          },
+          {
+            "process": "Cell Survival",
+            "count": 3
+          },
+          {
+            "process": "Mitochondrial Dynamics",
+            "count": 2
+          },
+          {
+            "process": "Metabolic Reprogramming",
+            "count": 2
+          }
+        ],
+        "protein_class_counts": [
+          {
+            "class": "GPCR",
+            "count": 1
+          },
+          {
+            "class": "ion channel",
+            "count": 0
+          },
+          {
+            "class": "kinase",
+            "count": 25
+          },
+          {
+            "class": "phosphatase",
+            "count": 0
+          },
+          {
+            "class": "transporter",
+            "count": 1
+          },
+          {
+            "class": "nuclear receptor",
+            "count": 0
+          },
+          {
+            "class": "E3 ligase",
+            "count": 0
+          },
+          {
+            "class": "transcription factor",
+            "count": 4
+          }
+        ]
+      }
+    },
+    {
+      "pathway_info": {
+        "name": "MITOCHONDRIAL PROTEIN IMPORT",
+        "id": "MITOCHONDRIAL PROTEIN IMPORT",
+        "nes_score": -2.2697,
+        "gene_count": 23
+      },
+      "total_occurrences": {
+        "disease": 135,
+        "heart_failure": 1,
+        "compounds": 109,
+        "genetics": 36
+      },
+      "literature_analysis": {
+        "pubmed_query_results": {
+          "total_citations": 338,
+          "abstracts_processed": 80,
+          "query": "inhibitor AND (NDUFB8 OR FXN OR ATP5MC1 OR CHCHD5 OR TIMM21 OR ATP5F1B OR SLC25A6 OR CYC1 OR LDHD OR GRPEL1 OR TIMM50 OR MTX1 OR DNAJC19 OR TIMM13 OR BCS1L OR SLC25A4 OR CHCHD10 OR MTX2 OR CHCHD7 OR ATP5F1A OR COA6 OR VDAC1 OR TOMM40)",
+          "pmids": [
+            "41291210",
+            "41115590",
+            "40534505",
+            "40912483",
+            "41086654",
+            "41476217",
+            "40945624",
+            "41415443",
+            "41289404",
+            "41038541",
+            "41303460",
+            "41147391",
+            "41005206",
+            "40818631",
+            "41247921",
+            "41244835",
+            "41300164",
+            "41279883",
+            "41149935",
+            "41102706",
+            "41158950",
+            "40938804",
+            "40816542",
+            "40999536",
+            "40939182",
+            "40974422",
+            "40887759",
+            "40519092",
+            "40472773",
+            "40919139",
+            "40916535",
+            "40698942",
+            "40543453",
+            "40411707",
+            "40799639",
+            "40747417",
+            "40242936",
+            "40075549",
+            "40409098",
+            "40404357",
+            "39921338",
+            "39878121",
+            "40450038",
+            "40452820",
+            "40564039",
+            "40249707",
+            "40320530",
+            "40032030",
+            "40251733",
+            "40300857",
+            "40285415",
+            "39754905",
+            "39221837",
+            "40085179",
+            "40123421",
+            "39870339",
+            "39826848",
+            "39827047",
+            "39716534",
+            "39837946",
+            "40190296",
+            "38231050",
+            "39763878",
+            "39181068",
+            "39636539",
+            "39556713",
+            "39364745",
+            "39128851",
+            "39587603",
+            "39521767",
+            "39406969",
+            "39367879",
+            "39158573",
+            "39436199",
+            "39457021",
+            "38955266",
+            "39373252",
+            "39408804",
+            "39315251",
+            "39211916",
+            "39052621",
+            "38880222",
+            "39211218",
+            "38977508",
+            "39062522",
+            "38972937",
+            "38845982",
+            "38857914",
+            "38895204",
+            "38892302",
+            "38084826",
+            "38862456",
+            "38395184",
+            "38266738",
+            "38195019",
+            "38607066",
+            "38561419",
+            "38426621",
+            "38562460",
+            "38474278",
+            "38298056",
+            "38355278",
+            "38105424",
+            "38256264",
+            "38070860",
+            "37944606",
+            "38176135",
+            "37679644",
+            "37977042",
+            "37919522",
+            "37856907",
+            "38016997",
+            "36827092",
+            "37797372",
+            "37689814",
+            "37458989",
+            "37717471",
+            "37658045",
+            "37392951",
+            "37385403",
+            "37380138",
+            "36803235",
+            "37712269",
+            "37270031",
+            "37569780",
+            "37507997",
+            "37408029",
+            "37099814",
+            "37333332",
+            "37280526",
+            "37259038",
+            "37155882",
+            "37160920",
+            "36871636",
+            "36950988",
+            "36745138",
+            "36639873",
+            "32930026",
+            "37104191",
+            "36979492",
+            "37034225",
+            "36882466",
+            "36780807",
+            "36603706",
+            "36341698",
+            "35920704",
+            "35895804",
+            "36835431",
+            "36440857",
+            "36743215",
+            "36656806",
+            "40395303",
+            "36858637",
+            "36480442",
+            "36578022",
+            "36551205",
+            "36291596",
+            "36186902",
+            "36144618",
+            "35863430",
+            "35843074",
+            "35841827",
+            "36097779",
+            "36061025",
+            "35972052",
+            "36034863",
+            "35851147",
+            "35804909",
+            "35472330",
+            "34401974",
+            "34308505",
+            "35664670",
+            "35180474",
+            "35281493",
+            "34953947",
+            "35256949",
+            "34967508",
+            "34896079",
+            "35093151",
+            "35053271",
+            "36450556",
+            "34781232",
+            "34755470",
+            "34547407",
+            "34224325",
+            "34899161",
+            "34625801",
+            "35006783",
+            "34584540",
+            "34392151",
+            "34539973",
+            "34058286",
+            "32924761",
+            "34445774",
+            "34456736",
+            "34164906",
+            "34058229",
+            "33971568",
+            "34034859",
+            "33869202"
+          ]
+        },
+        "gene_mentions": [
+          {
+            "gene": "VDAC1",
+            "doc_count": 54,
+            "total_mentions": 197,
+            "pmids": [
+              "40534505",
+              "40912483",
+              "41086654",
+              "41476217",
+              "40945624",
+              "41415443",
+              "41289404",
+              "41038541",
+              "41147391",
+              "41247921",
+              "41300164",
+              "41102706",
+              "41158950",
+              "40938804",
+              "40999536",
+              "40939182",
+              "40974422",
+              "40887759",
+              "40519092",
+              "40472773",
+              "40919139",
+              "40916535",
+              "40698942",
+              "40543453",
+              "40799639",
+              "40747417",
+              "40075549",
+              "40409098",
+              "39921338",
+              "40452820",
+              "40249707",
+              "40032030",
+              "40251733",
+              "40300857",
+              "40285415",
+              "39221837",
+              "40085179",
+              "40123421",
+              "39870339",
+              "39826848",
+              "39827047",
+              "39716534",
+              "39837946",
+              "39763878",
+              "39181068",
+              "39556713",
+              "39587603",
+              "39521767",
+              "39406969",
+              "39367879",
+              "39158573",
+              "39436199",
+              "38955266",
+              "39211916"
+            ]
+          },
+          {
+            "gene": "FXN",
+            "doc_count": 4,
+            "total_mentions": 32,
+            "pmids": [
+              "41005206",
+              "40404357",
+              "40564039",
+              "40190296"
+            ]
+          },
+          {
+            "gene": "TOMM40",
+            "doc_count": 3,
+            "total_mentions": 22,
+            "pmids": [
+              "41303460",
+              "40816542",
+              "38231050"
+            ]
+          },
+          {
+            "gene": "CHCHD10",
+            "doc_count": 1,
+            "total_mentions": 10,
+            "pmids": [
+              "39315251"
+            ]
+          },
+          {
+            "gene": "NDUFB8",
+            "doc_count": 4,
+            "total_mentions": 8,
+            "pmids": [
+              "40818631",
+              "40411707",
+              "39364745",
+              "39373252"
+            ]
+          },
+          {
+            "gene": "MTX1",
+            "doc_count": 1,
+            "total_mentions": 6,
+            "pmids": [
+              "39408804"
+            ]
+          },
+          {
+            "gene": "CYC1",
+            "doc_count": 3,
+            "total_mentions": 3,
+            "pmids": [
+              "41149935",
+              "40450038",
+              "39636539"
+            ]
+          },
+          {
+            "gene": "GRPEL1",
+            "doc_count": 2,
+            "total_mentions": 3,
+            "pmids": [
+              "41279883",
+              "40242936"
+            ]
+          },
+          {
+            "gene": "SLC25A4",
+            "doc_count": 2,
+            "total_mentions": 2,
+            "pmids": [
+              "41244835",
+              "40320530"
+            ]
+          },
+          {
+            "gene": "SLC25A6",
+            "doc_count": 1,
+            "total_mentions": 1,
+            "pmids": [
+              "39128851"
+            ]
+          },
+          {
+            "gene": "DNAJC19",
+            "doc_count": 1,
+            "total_mentions": 1,
+            "pmids": [
+              "41291210"
+            ]
+          },
+          {
+            "gene": "ATP5F1A",
+            "doc_count": 1,
+            "total_mentions": 1,
+            "pmids": [
+              "39878121"
+            ]
+          },
+          {
+            "gene": "COA6",
+            "doc_count": 1,
+            "total_mentions": 1,
+            "pmids": [
+              "39754905"
+            ]
+          },
+          {
+            "gene": "ATP5MC1",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "CHCHD5",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "TIMM21",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "ATP5F1B",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "LDHD",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "TIMM50",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "TIMM13",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "BCS1L",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "MTX2",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "CHCHD7",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          }
+        ],
+        "disease_keywords": [
+          {
+            "disease": "Neoplasms",
+            "count": 17
+          },
+          {
+            "disease": "Periodontitis",
+            "count": 15
+          },
+          {
+            "disease": "Adenocarcinoma",
+            "count": 13
+          },
+          {
+            "disease": "Adenoma",
+            "count": 6
+          },
+          {
+            "disease": "Rabies",
+            "count": 6
+          },
+          {
+            "disease": "Vitiligo",
+            "count": 5
+          },
+          {
+            "disease": "Glioblastoma",
+            "count": 5
+          },
+          {
+            "disease": "Bronchopulmonary Dysplasia",
+            "count": 4
+          },
+          {
+            "disease": "Epilepsy",
+            "count": 4
+          },
+          {
+            "disease": "Pancreatitis",
+            "count": 3
+          },
+          {
+            "disease": "Hyperoxia",
+            "count": 3
+          },
+          {
+            "disease": "Acute Kidney Injury",
+            "count": 3
+          },
+          {
+            "disease": "Friedreich Ataxia",
+            "count": 3
+          },
+          {
+            "disease": "Esophageal Squamous Cell Carcinoma",
+            "count": 3
+          },
+          {
+            "disease": "Acute Lung Injury",
+            "count": 3
+          },
+          {
+            "disease": "Pemphigus",
+            "count": 3
+          },
+          {
+            "disease": "Lung Neoplasms",
+            "count": 2
+          },
+          {
+            "disease": "Silicosis",
+            "count": 2
+          },
+          {
+            "disease": "Breast Neoplasms",
+            "count": 2
+          },
+          {
+            "disease": "Myocardial Reperfusion Injury",
+            "count": 2
+          },
+          {
+            "disease": "Diabetic Retinopathy",
+            "count": 2
+          },
+          {
+            "disease": "Major Depressive Disorder",
+            "count": 2
+          },
+          {
+            "disease": "Huntington Disease",
+            "count": 1
+          },
+          {
+            "disease": "Leukemia, Myeloid, Acute",
+            "count": 1
+          },
+          {
+            "disease": "Lymphoma, T-Cell, Peripheral",
+            "count": 1
+          },
+          {
+            "disease": "Pancreatic Neoplasms",
+            "count": 1
+          },
+          {
+            "disease": "Adrenal Cortex Neoplasms",
+            "count": 1
+          },
+          {
+            "disease": "Adrenocortical Adenoma",
+            "count": 1
+          },
+          {
+            "disease": "Lymphoma, Large B-Cell, Diffuse",
+            "count": 1
+          },
+          {
+            "disease": "heart failure",
+            "count": 1
+          }
+        ],
+        "compound_keywords": [
+          {
+            "compound": "Cholesterol",
+            "count": 18,
+            "pubchem_cid": 5997,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "NAD",
+            "count": 18,
+            "pubchem_cid": 5892,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "DIDS",
+            "count": 16,
+            "pubchem_cid": 40600,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Cadmium",
+            "count": 16,
+            "pubchem_cid": 23973,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "VBIT-4",
+            "count": 15,
+            "pubchem_cid": 126697666,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Aldosterone",
+            "count": 14,
+            "pubchem_cid": 5839,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Diquat",
+            "count": 12,
+            "pubchem_cid": 6795,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Etoposide",
+            "count": 12,
+            "pubchem_cid": 36462,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Ticagrelor",
+            "count": 11,
+            "pubchem_cid": 9871419,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Cisplatin",
+            "count": 11,
+            "pubchem_cid": 5702198,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "fluorizoline",
+            "count": 9,
+            "pubchem_cid": 56837157,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Liquiritigenin",
+            "count": 8,
+            "pubchem_cid": 114829,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Cysteine",
+            "count": 8,
+            "pubchem_cid": 5862,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Curcumin",
+            "count": 6,
+            "pubchem_cid": 969516,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "Biotin",
+            "count": 5,
+            "pubchem_cid": 171548,
+            "pubchem_validated": true
+          }
+        ],
+        "process_keywords": [
+          {
+            "process": "Apoptosis",
+            "count": 70
+          },
+          {
+            "process": "Ferroptosis",
+            "count": 51
+          },
+          {
+            "process": "Mitophagy",
+            "count": 43
+          },
+          {
+            "process": "Oxidative Stress",
+            "count": 34
+          },
+          {
+            "process": "Autophagy",
+            "count": 29
+          },
+          {
+            "process": "Phosphorylation",
+            "count": 26
+          },
+          {
+            "process": "Signal Transduction",
+            "count": 18
+          },
+          {
+            "process": "Pyroptosis",
+            "count": 14
+          },
+          {
+            "process": "Homeostasis",
+            "count": 11
+          },
+          {
+            "process": "Oxidative Phosphorylation",
+            "count": 11
+          },
+          {
+            "process": "Cell Proliferation",
+            "count": 11
+          },
+          {
+            "process": "Gene Expression Regulation",
+            "count": 9
+          },
+          {
+            "process": "Glycolysis",
+            "count": 9
+          },
+          {
+            "process": "DNA Methylation",
+            "count": 8
+          },
+          {
+            "process": "Protein Import (Mitochondrial)",
+            "count": 7
+          },
+          {
+            "process": "Mitochondrial Dynamics",
+            "count": 7
+          },
+          {
+            "process": "Cellular Senescence",
+            "count": 6
+          },
+          {
+            "process": "Metabolic Reprogramming",
+            "count": 6
+          },
+          {
+            "process": "Necroptosis",
+            "count": 6
+          },
+          {
+            "process": "Calcium Signaling",
+            "count": 5
+          }
+        ],
+        "protein_class_counts": [
+          {
+            "class": "GPCR",
+            "count": 0
+          },
+          {
+            "class": "ion channel",
+            "count": 53
+          },
+          {
+            "class": "kinase",
+            "count": 48
+          },
+          {
+            "class": "phosphatase",
+            "count": 0
+          },
+          {
+            "class": "transporter",
+            "count": 14
+          },
+          {
+            "class": "nuclear receptor",
+            "count": 0
+          },
+          {
+            "class": "E3 ligase",
+            "count": 0
+          },
+          {
+            "class": "transcription factor",
+            "count": 6
+          }
+        ]
+      }
+    },
+    {
+      "pathway_info": {
+        "name": "AUTOPHAGY",
+        "id": "AUTOPHAGY",
+        "nes_score": -1.3081,
+        "gene_count": 20
+      },
+      "total_occurrences": {
+        "disease": 74,
+        "heart_failure": 0,
+        "compounds": 105,
+        "genetics": 36
+      },
+      "literature_analysis": {
+        "pubmed_query_results": {
+          "total_citations": 2591,
+          "abstracts_processed": 80,
+          "query": "inhibitor AND (MLST8 OR TUBA3E OR TUBA3D OR PCNT OR MTERF3 OR RHEB OR UBAP1 OR OPTN OR MAP1LC3A OR GABARAPL1 OR GFAP OR CHMP4C OR FUNDC1 OR VDAC1 OR TOMM40 OR ATG4D OR VDAC2 OR UBE2D2 OR HSF1 OR UBE2N)",
+          "pmids": [
+            "41014338",
+            "41398047",
+            "42111301",
+            "40875533",
+            "40571091",
+            "41483717",
+            "41452361",
+            "40916239",
+            "40660474",
+            "41319264",
+            "41275898",
+            "41115590",
+            "40534505",
+            "41232216",
+            "41223618",
+            "41352704",
+            "40912483",
+            "41497904",
+            "41271009",
+            "41241085",
+            "41176025",
+            "41109840",
+            "41086654",
+            "41024483",
+            "41005546",
+            "41476217",
+            "41883400",
+            "41477167",
+            "40945624",
+            "41415443",
+            "41382001",
+            "41115353",
+            "41458176",
+            "41394897",
+            "41224733",
+            "41416109",
+            "41289404",
+            "41427729",
+            "41369048",
+            "41317310",
+            "41314098",
+            "41275992",
+            "41219536",
+            "41208815",
+            "41173249",
+            "41165991",
+            "41060801",
+            "41038541",
+            "41027047",
+            "40988734",
+            "40818063",
+            "40694283",
+            "40235277",
+            "41222786",
+            "41471288",
+            "41287056",
+            "41273630",
+            "41258590",
+            "41262768",
+            "41082995",
+            "41303460",
+            "41214402",
+            "40766502",
+            "41203601",
+            "40962009",
+            "41147391",
+            "41216864",
+            "41178552",
+            "41178544",
+            "41065077",
+            "40953121",
+            "40912996",
+            "40818662",
+            "40783146",
+            "41247921",
+            "41227356",
+            "41168840",
+            "41165925",
+            "41300164",
+            "41137045",
+            "41115891",
+            "41126967",
+            "41181139",
+            "41102706",
+            "40972688",
+            "40714530",
+            "41235005",
+            "41075047",
+            "41155167",
+            "40706212",
+            "41158950",
+            "41097044",
+            "41067490",
+            "42006102",
+            "41031618",
+            "40938804",
+            "40873060",
+            "40866018",
+            "40816542",
+            "40690876",
+            "40633621",
+            "40465327",
+            "40011292",
+            "40999536",
+            "40939182",
+            "40901799",
+            "40982121",
+            "40974422",
+            "40956875",
+            "40887759",
+            "40782537",
+            "40932543",
+            "40921658",
+            "40532841",
+            "40950480",
+            "40794477",
+            "40999660",
+            "40706815",
+            "40617315",
+            "40519092",
+            "40482989",
+            "40482841",
+            "40472773",
+            "40400165",
+            "40372671",
+            "40204953",
+            "40936919",
+            "40919139",
+            "40916535",
+            "40792554",
+            "40867632",
+            "40880987",
+            "40809378",
+            "40698942",
+            "40772584",
+            "40750587",
+            "40738806",
+            "40643877",
+            "40623488",
+            "40544189",
+            "40543453",
+            "40513390",
+            "39693001",
+            "39578308",
+            "40739177",
+            "40799639",
+            "40860154",
+            "40723915",
+            "40675964",
+            "40673956",
+            "40665449",
+            "40724921",
+            "40635084",
+            "40693224",
+            "40617887",
+            "40747417",
+            "40165373",
+            "40833164",
+            "40443063",
+            "40436489",
+            "40411263",
+            "40259053",
+            "40095343",
+            "40075549",
+            "38321911",
+            "40571874",
+            "40409098",
+            "40574770",
+            "40535916",
+            "40528237",
+            "40223230",
+            "40545466",
+            "40049045",
+            "40584894",
+            "40512435",
+            "40548298",
+            "40273624",
+            "40509137",
+            "40388587",
+            "40490945",
+            "40456346",
+            "40239269",
+            "40220879",
+            "40199064",
+            "40185418",
+            "40185252",
+            "39964585",
+            "39954165",
+            "39921338",
+            "39881114",
+            "39875520",
+            "40452820",
+            "40520006",
+            "40349344",
+            "40249707",
+            "40399470",
+            "39831665",
+            "39657117",
+            "40367052",
+            "40127756"
+          ]
+        },
+        "gene_mentions": [
+          {
+            "gene": "MLST8",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "TUBA3E",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "TUBA3D",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "PCNT",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "MTERF3",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "RHEB",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "UBAP1",
+            "doc_count": 1,
+            "total_mentions": 4,
+            "pmids": [
+              "41203601"
+            ]
+          },
+          {
+            "gene": "OPTN",
+            "doc_count": 6,
+            "total_mentions": 24,
+            "pmids": [
+              "40660474",
+              "41319264",
+              "41275898",
+              "41497904",
+              "41271009",
+              "41005546"
+            ]
+          },
+          {
+            "gene": "MAP1LC3A",
+            "doc_count": 1,
+            "total_mentions": 1,
+            "pmids": [
+              "41176025"
+            ]
+          },
+          {
+            "gene": "GABARAPL1",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "GFAP",
+            "doc_count": 45,
+            "total_mentions": 82,
+            "pmids": [
+              "41014338",
+              "42111301",
+              "41483717",
+              "41452361",
+              "40916239",
+              "41232216",
+              "41223618",
+              "41352704",
+              "41241085",
+              "41109840",
+              "41024483",
+              "41883400",
+              "41477167",
+              "41382001",
+              "41115353",
+              "41458176",
+              "41394897",
+              "41427729",
+              "41369048",
+              "41317310",
+              "41314098",
+              "41275992",
+              "41219536",
+              "41208815",
+              "41165991",
+              "41027047",
+              "40988734",
+              "40694283",
+              "41222786",
+              "41471288",
+              "41287056",
+              "41273630",
+              "41214402",
+              "40766502",
+              "40962009",
+              "41216864",
+              "41178544",
+              "41065077",
+              "40953121",
+              "40912996",
+              "40818662",
+              "41227356",
+              "41168840",
+              "41165925",
+              "41137045"
+            ]
+          },
+          {
+            "gene": "CHMP4C",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "FUNDC1",
+            "doc_count": 2,
+            "total_mentions": 16,
+            "pmids": [
+              "40235277",
+              "40783146"
+            ]
+          },
+          {
+            "gene": "VDAC1",
+            "doc_count": 11,
+            "total_mentions": 31,
+            "pmids": [
+              "40534505",
+              "40912483",
+              "41086654",
+              "41476217",
+              "40945624",
+              "41415443",
+              "41289404",
+              "41038541",
+              "41147391",
+              "41247921",
+              "41300164"
+            ]
+          },
+          {
+            "gene": "TOMM40",
+            "doc_count": 1,
+            "total_mentions": 5,
+            "pmids": [
+              "41303460"
+            ]
+          },
+          {
+            "gene": "ATG4D",
+            "doc_count": 1,
+            "total_mentions": 1,
+            "pmids": [
+              "40875533"
+            ]
+          },
+          {
+            "gene": "VDAC2",
+            "doc_count": 1,
+            "total_mentions": 3,
+            "pmids": [
+              "41060801"
+            ]
+          },
+          {
+            "gene": "UBE2D2",
+            "doc_count": 0,
+            "total_mentions": 0,
+            "pmids": []
+          },
+          {
+            "gene": "HSF1",
+            "doc_count": 3,
+            "total_mentions": 18,
+            "pmids": [
+              "41416109",
+              "41173249",
+              "41262768"
+            ]
+          },
+          {
+            "gene": "UBE2N",
+            "doc_count": 1,
+            "total_mentions": 6,
+            "pmids": [
+              "40818063"
+            ]
+          }
+        ],
+        "disease_keywords": [
+          {
+            "disease": "Neuroinflammatory Diseases",
+            "count": 7
+          },
+          {
+            "disease": "Inflammation",
+            "count": 6
+          },
+          {
+            "disease": "Alzheimer Disease",
+            "count": 4
+          },
+          {
+            "disease": "Huntington Disease",
+            "count": 3
+          },
+          {
+            "disease": "Colorectal Neoplasms",
+            "count": 2
+          },
+          {
+            "disease": "Lung Neoplasms",
+            "count": 2
+          },
+          {
+            "disease": "Fish Diseases",
+            "count": 2
+          },
+          {
+            "disease": "Epilepsy",
+            "count": 2
+          },
+          {
+            "disease": "HIV Infections",
+            "count": 2
+          },
+          {
+            "disease": "Depression",
+            "count": 1
+          },
+          {
+            "disease": "Hirschsprung Disease",
+            "count": 1
+          },
+          {
+            "disease": "Encephalomyelitis, Autoimmune, Experimental",
+            "count": 1
+          },
+          {
+            "disease": "Salmonella Infections",
+            "count": 1
+          },
+          {
+            "disease": "Leukemia, Myeloid, Acute",
+            "count": 1
+          },
+          {
+            "disease": "Iatrogenic Disease",
+            "count": 1
+          }
+        ],
+        "compound_keywords": [
+          {
+            "compound": "obicetrapib",
+            "count": 12,
+            "pubchem_cid": 11498596,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "ticagrelor",
+            "count": 10,
+            "pubchem_cid": 9871419,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "resatorvid",
+            "count": 9,
+            "pubchem_cid": 11703255,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "AR1001",
+            "count": 9,
+            "pubchem_cid": 7669,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "liquiritigenin",
+            "count": 8,
+            "pubchem_cid": 114829,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "melatonin",
+            "count": 8,
+            "pubchem_cid": 896,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "losartan",
+            "count": 7,
+            "pubchem_cid": 3961,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "agrimonolide",
+            "count": 7,
+            "pubchem_cid": 161362,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "KDS2010",
+            "count": 6,
+            "pubchem_cid": 154730643,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "geniposide",
+            "count": 5,
+            "pubchem_cid": 107848,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "ML385",
+            "count": 4,
+            "pubchem_cid": 1383822,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "sodium butyrate",
+            "count": 3,
+            "pubchem_cid": 5222465,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "oxytocin",
+            "count": 3,
+            "pubchem_cid": 439302,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "canagliflozin",
+            "count": 2,
+            "pubchem_cid": 24812758,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "atorvastatin",
+            "count": 2,
+            "pubchem_cid": 60823,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "niraparib",
+            "count": 2,
+            "pubchem_cid": 24958200,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "hederagenin",
+            "count": 2,
+            "pubchem_cid": 73299,
+            "pubchem_validated": true
+          },
+          {
+            "compound": "dexmedetomidine",
+            "count": 2,
+            "pubchem_cid": 5311068,
+            "pubchem_validated": true
+          }
+        ],
+        "process_keywords": [
+          {
+            "process": "inflammation",
+            "count": 65
+          },
+          {
+            "process": "autophagy",
+            "count": 40
+          },
+          {
+            "process": "apoptosis",
+            "count": 38
+          },
+          {
+            "process": "mitophagy",
+            "count": 33
+          },
+          {
+            "process": "neuroinflammation",
+            "count": 25
+          },
+          {
+            "process": "signal transduction",
+            "count": 19
+          },
+          {
+            "process": "oxidative stress",
+            "count": 18
+          },
+          {
+            "process": "ubiquitination",
+            "count": 16
+          },
+          {
+            "process": "gliosis",
+            "count": 15
+          },
+          {
+            "process": "astrocyte activation",
+            "count": 10
+          },
+          {
+            "process": "neurogenesis",
+            "count": 9
+          },
+          {
+            "process": "xenophagy",
+            "count": 9
+          },
+          {
+            "process": "pyroptosis",
+            "count": 9
+          },
+          {
+            "process": "protein homeostasis",
+            "count": 6
+          },
+          {
+            "process": "cell proliferation",
+            "count": 5
+          }
+        ],
+        "protein_class_counts": [
+          {
+            "class": "GPCR",
+            "count": 0
+          },
+          {
+            "class": "ion channel",
+            "count": 17
+          },
+          {
+            "class": "kinase",
+            "count": 37
+          },
+          {
+            "class": "phosphatase",
+            "count": 1
+          },
+          {
+            "class": "transporter",
+            "count": 11
+          },
+          {
+            "class": "nuclear receptor",
+            "count": 0
+          },
+          {
+            "class": "E3 ligase",
+            "count": 1
+          },
+          {
+            "class": "transcription factor",
+            "count": 10
+          }
+        ]
+      }
+    }
+  ],
+  "summary_stats": {
+    "total_pubmed_records": 3129,
+    "most_frequent_diseases": [
+      {
+        "disease": "Neoplasms",
+        "count": 19
+      },
+      {
+        "disease": "Leukemia, Myeloid, Acute",
+        "count": 15
+      },
+      {
+        "disease": "Periodontitis",
+        "count": 15
+      },
+      {
+        "disease": "Adenocarcinoma",
+        "count": 13
+      },
+      {
+        "disease": "Neuroinflammatory Diseases",
+        "count": 7
+      },
+      {
+        "disease": "Lung Neoplasms",
+        "count": 6
+      },
+      {
+        "disease": "Adenoma",
+        "count": 6
+      },
+      {
+        "disease": "Rabies",
+        "count": 6
+      },
+      {
+        "disease": "Epilepsy",
+        "count": 6
+      },
+      {
+        "disease": "Inflammation",
+        "count": 6
+      },
+      {
+        "disease": "Acute Kidney Injury",
+        "count": 5
+      },
+      {
+        "disease": "Vitiligo",
+        "count": 5
+      },
+      {
+        "disease": "Glioblastoma",
+        "count": 5
+      },
+      {
+        "disease": "Glioma",
+        "count": 4
+      },
+      {
+        "disease": "Brain Neoplasms",
+        "count": 4
+      }
+    ],
+    "most_frequent_compounds": [
+      {
+        "compound": "Enasidenib",
+        "count": 24
+      },
+      {
+        "compound": "Vorasidenib",
+        "count": 24
+      },
+      {
+        "compound": "Ticagrelor",
+        "count": 21
+      },
+      {
+        "compound": "Cholesterol",
+        "count": 18
+      },
+      {
+        "compound": "NAD",
+        "count": 18
+      },
+      {
+        "compound": "DIDS",
+        "count": 16
+      },
+      {
+        "compound": "Cadmium",
+        "count": 16
+      },
+      {
+        "compound": "Liquiritigenin",
+        "count": 16
+      },
+      {
+        "compound": "Venetoclax",
+        "count": 15
+      },
+      {
+        "compound": "VBIT-4",
+        "count": 15
+      },
+      {
+        "compound": "Aldosterone",
+        "count": 14
+      },
+      {
+        "compound": "Celastrol",
+        "count": 13
+      },
+      {
+        "compound": "Artemether",
+        "count": 13
+      },
+      {
+        "compound": "Diquat",
+        "count": 12
+      },
+      {
+        "compound": "Etoposide",
+        "count": 12
+      }
+    ],
+    "most_frequent_processes": [
+      {
+        "process": "Apoptosis",
+        "count": 118
+      },
+      {
+        "process": "Mitophagy",
+        "count": 76
+      },
+      {
+        "process": "Autophagy",
+        "count": 69
+      },
+      {
+        "process": "Signal Transduction",
+        "count": 66
+      },
+      {
+        "process": "inflammation",
+        "count": 65
+      },
+      {
+        "process": "Oxidative Stress",
+        "count": 62
+      },
+      {
+        "process": "Ferroptosis",
+        "count": 51
+      },
+      {
+        "process": "Phosphorylation",
+        "count": 26
+      },
+      {
+        "process": "neuroinflammation",
+        "count": 25
+      },
+      {
+        "process": "Pyroptosis",
+        "count": 23
+      },
+      {
+        "process": "Cell Proliferation",
+        "count": 21
+      },
+      {
+        "process": "ubiquitination",
+        "count": 16
+      },
+      {
+        "process": "gliosis",
+        "count": 15
+      },
+      {
+        "process": "Homeostasis",
+        "count": 14
+      },
+      {
+        "process": "DNA Methylation",
+        "count": 13
+      }
+    ],
+    "workflow_status": "completed",
+    "notes": "most_frequent_* lists are aggregated across pathways by case-insensitive exact name match on each pathway's own top-N keyword list (not a controlled vocabulary merge, so near-duplicate disease/process labels across pathways may appear as separate entries). abstracts_processed reflects a capped sample (up to 80 most recent, publication-type-filtered abstracts per pathway) used for entity extraction, not the full total_citations set. AUTOPHAGY's search hit 2,591 total citations but only the first 200 PMIDs (maxResults cap) were retrieved/stored, and 80 of those were processed for entity extraction."
+  }
+}
